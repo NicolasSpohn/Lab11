@@ -31,7 +31,7 @@ public class InventoryManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("didnt find anything.");
+                Debug.Log("Nothing found.");
             }
         }
         else if (Input.GetKeyDown(KeyCode.S))
